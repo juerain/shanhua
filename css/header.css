@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.welcom{
+    width: 100%;
+    background-color: #aaaaaa;
+}
+.hello{
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    flex-shrink: 1;
+}
+.login a{
+    background: url(../../img/login_top.png) no-repeat;
+    text-decoration: none;
+}
+.login ul li:first-child a{
+    background-position: 30px -21px;
+}
+.login ul li:last-child a{
+    background-position: 4px 5px;
+}
+.book-box{
+    width: 100%;
+
+}
+.book{
+    height: 70px;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+.book>div img{
+    display: block;
+    margin-top: 10px;
+}
+.nav-box{
+    width: 100%;
+    height: 50px;
+    background:rgba(2,178,181,1);
+}
+.nav-box a{
+    text-decoration: none;
+}
+.nav-box>div>div ul li{
+    width: 100px;
+    height: 50px;
+}
+.active{
+    background: rgba(255,255,255,.3);
+}
+.nav-box>div>div ul li:hover{
+    background: rgba(255,255,255,.3);
+}
+.home-page{
+
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*轮播图样式*/
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+ul.carousel .active{
+    background-color: #ff8800 !important;
+}
