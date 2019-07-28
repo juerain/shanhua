@@ -1,0 +1,92 @@
+.container{
+    margin-bottom: 20px;
+}
+/*一楼样式*/
+.full-person{
+    width: 1371px;
+    margin: 0 auto;
+}
+.full-person>span{
+    font-size: 24px;
+    display: inline-block;
+    margin:20px 0;
+}
+.read2 img{
+    width: 233px;
+    height: 233px;
+}
+.read2 div .prop-box{
+    border: 1px solid #aaa;
+}
+.img-h img{
+    height: 266px;
+}
+.prop-name{
+    display: inline-block;
+    float: left;
+    color: #999999;
+    font-size: 14px;
+
+}
+.prop-price{
+    display: block;
+    float: right;
+    color: #cc0b0e;
+    font-size: 20px;
+}
+.prop-title{
+    clear: both;
+}
+.prop-box{
+    overflow: hidden;
+}
+.prop-box>a>img:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
+.prop-box>div>p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media screen and (min-width: 992px){
+    .prop-box>img{
+        width: 220px;
+    }
+    .head{
+        height: 150px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .pull-two{
+        margin-right: 0 !important;
+    }
+    .pull-three{
+        margin-top: 15px;
+    }
+    .head{
+        height: 150px;
+    }
+    .img-h>div:nth-child(2)>div,.img-h>div:nth-child(4)>div{
+        padding-right: 0px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .pull-two{
+        margin-right: 0 !important;
+    }
+    .pull-three{
+        margin-top: 15px;
+    }
+    .head{
+        height: 150px;
+    }
+    .img-h>div:nth-child(2)>div,.img-h>div:nth-child(4)>div{
+        padding-right: 0px !important;
+    }
+
+}
+.foot,footer{
+    width: 100%;
+    height: 100px;
+}
